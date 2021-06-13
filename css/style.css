@@ -580,11 +580,11 @@ margin-top: 40px;
     margin: 0;
 }
 
-/*Service Section*/
+/*competence Section*/
 .competence .container{
     padding-bottom: 40px;
 }
-.competence .service-item{
+.competence .competence-item{
     -ms-flex: 0 0 33.33%;
     flex: 0 0 33.33%;
     max-width: 33.33%;
@@ -592,7 +592,7 @@ margin-top: 40px;
     display: -ms-flexbox;
     display: flex;
 }
-.competence .service-item .service-item-inner{
+.competence .competence-item .competence-item-inner{
     background-color: #fdf9ff;
     border: 1px solid #d4d4e3;
     border-radius: 10px;
@@ -601,11 +601,11 @@ margin-top: 40px;
     -webkit-transition: all 0.3s ease;
     transition: all 0.3s ease;
 }
-.competence .service-item .service-item-inner:hover{
+.competence .competence-item .competence-item-inner:hover{
     -webkit-box-shadow: 0 0 20px rgba(48,46,77,0.15);
      box-shadow: 0 0 20px rgba(48,46,77,0.15);
 }
-.competence .service-item .service-item-inner .icon{
+.competence .competence-item .competence-item-inner .icon{
     height: 60px;
     width: 60px;
     display: block;
@@ -615,25 +615,25 @@ margin-top: 40px;
     -webkit-transition: all 0.3s ease;
     transition: all 0.3s ease;
 }
-.competence .service-item .service-item-inner .icon .fa{
+.competence .competence-item .competence-item-inner .icon .fa{
     font-size: 40px;
     line-height: 60px;
     -webkit-transition: all 0.3s ease;
     transition: all 0.3s ease;
 }
-.competence .service-item .service-item-inner:hover .icon .fa{
+.competence .competence-item .competence-item-inner:hover .icon .fa{
     font-size: 25px;
     color: #ffffff;
 }
 
-.competence .service-item .service-item-inner h4{
+.competence .competence-item .competence-item-inner h4{
     font-size: 18px;
     margin-bottom: 15px;
     color: #302e4d;
     font-weight: 700;
     text-transform: capitalize;
 }
-.competence .service-item .service-item-inner p{
+.competence .competence-item .competence-item-inner p{
     font-size: 16px;
     color: #504e70;
     line-height: 25px;
@@ -1041,7 +1041,7 @@ body.dark .section{
 }
 body.dark .contact .contact-form .form-item .form-control,
 body.dark .blog .blog-item-inner .blog-info,
-body.dark .service .service-item .service-item-inner,
+body.dark .competence .competence-item .competence-item-inner,
 body.dark .about .about-content .timeline,
 body.dark .aside{
     background-color: #222222;
@@ -1050,7 +1050,7 @@ body.dark .contact .contact-form .form-item .form-control,
 body.dark .contact-info-item h4,
 body.dark .blog .blog-item-inner .blog-info .blog-title,
 body.dark .portfolio .portfolio-filter button,
-body.dark .service .service-item .service-item-inner h4,
+body.dark .competence .competence-item .competence-item-inner h4,
 body.dark .about .about-content .timeline .timeline-title,
 body.dark .about .about-content h3.title,
 body.dark .about .about-content .skills .skill-item h5,
@@ -1066,7 +1066,7 @@ body.dark .contact .contact-form .form-item .form-control,
 body.dark .contact-info-item p,
 body.dark .blog .blog-item-inner .blog-info .blog-tags,
 body.dark .blog .blog-item-inner .blog-info .blog-description,
-body.dark .service .service-item .service-item-inner p,
+body.dark .competence .competence-item .competence-item-inner p,
 body.dark .about .about-content .timeline .timeline-text,
 body.dark .about .about-content .timeline .timeline-date,
 body.dark .about .about-content .skills .skill-item .skill-percent,
@@ -1078,7 +1078,7 @@ body.dark .home .intro p{
 }
 body.dark .aside,
 body.dark .blog .blog-item-inner,
-body.dark .service .service-item .service-item-inner,
+body.dark .competence .competence-item .competence-item-inner,
 body.dark .about .about-content .timeline,
 body.dark .about .about-content .personal-info .info-item p,
 body.dark .aside .nav li a{
@@ -1129,7 +1129,7 @@ body.dark .shadow-dark{
 @media (max-width: 991px){
     .blog .blog-item,
     .portfolio .portfolio-item,
-    .service .service-item{
+    .competence .competence-item{
         -ms-flex: 0 0 50%;
         flex: 0 0 50%;
         max-width: 50%;
@@ -1138,7 +1138,7 @@ body.dark .shadow-dark{
 @media (max-width: 767px){
     .contact .contact-form .col-6,
     .blog .blog-item,
-    .service .service-item,
+    .competence .competence-item,
     .about .about-content .experience,
     .about .about-content .education,
     .about .about-content .skills,
