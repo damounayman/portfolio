@@ -1159,3 +1159,56 @@ body.dark .shadow-dark{
         max-width: 100%;
     }
 }
+
+
+.skills {
+    padding-top: 2em;
+    padding-bottom: 4em;
+    background-color: white;
+  }
+
+      .skillsContent {
+        padding-top: 3em;
+        padding-right: 4em;
+        padding-left: 4em;
+      }
+
+      .skillsContent > ul {
+        display: flex;
+        justify-content: center;
+        flex-flow: wrap;
+      }
+
+      .skillsContent > ul > li {
+        display: inline-block;
+        vertical-align: middle;
+        text-align: center;
+        padding-left: 2em;
+        padding-right: 2em;
+      }
+
+      @media only screen and (max-width: 768px) {
+        .skillsContent {
+          padding-top: 3em;
+          padding-left: 0;
+          padding-right: 0;
+        }
+
+        .skillsContent > ul > li {
+          display: inline-block;
+          vertical-align: middle;
+          text-align: center;
+          padding-left: .5em;
+          padding-right: .5em;
+        }
+
+      }
+
+      .skillsContent > ul > li > img {
+        width: 90px;
+        height: 90px;
+      }
+
+      .skillsContent > ul > li > p {
+        font-weight: bold;
+      }
