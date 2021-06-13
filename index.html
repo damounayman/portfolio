@@ -22,6 +22,11 @@
   <link rel="icon" href="./img/favicon.ico" />
  <script defer src="https://friconix.com/cdn/friconix.js"> </script>
 </head>
+<script>
+$(window).on('hashchange', function(e){
+    history.replaceState ("", document.title, e.originalEvent.oldURL);
+});
+</script>
 <body>
 
   <!--Prelaoder-->
